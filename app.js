@@ -4,7 +4,8 @@ const app = express();
 const port = process.env.PORT || 3000
 
 const path = require("path");
-const router = require("./routes/index.js");
+//const router = require("./routes/index.js");
+const router = require(path.join(__dirname,'routes','index.js'));
 const bodyparser = require("body-parser");
 const session = require("express-session");
 
