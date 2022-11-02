@@ -294,7 +294,6 @@ async function addWorkoutToDB (workout) {
   })
 }
 
-
 async function deleteWorkout(workoutId){
   const res = await fetch("/getuser");
   const user = await res.json();
