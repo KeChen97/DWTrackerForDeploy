@@ -1,6 +1,7 @@
 const nonworkBtn1 = document.querySelector("#nonworkBtn1");
 const nonworkModal1 = document.querySelector(".nonworkModal");
 const nonworkModal1Close = document.querySelector("#nonworkModal1-close");
+
 nonworkBtn1.onclick = function () {
   nonworkModal1.style.display = "block";
 }
