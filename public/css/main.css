@@ -1,0 +1,50 @@
+#messages {
+  display: none;
+}
+
+#log-messages {
+  display: none;
+}
+
+#user-profile-card {
+  border: none;
+  background-color: #f2ebc2;
+}
+
+.card {
+  border: none;
+  background-color: #f2ebc2;
+}
+
+.user-profile {
+  border: none;
+}
+
+#index-card {
+  /*border: none;*/
+}
+
+body {
+  background-color: #f2ebc2;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-font {
+  font-family: "Audiowide", cursive;
+}
+
+.user-sect-title {
+  text-decoration: underline;
+  font-family: "Audiowide", cursive;
+}
+
+.main-part {
+  border: 1px solid transparent;
+  border-radius: 25px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  background-color: #fbfaf4;
+}
+
+.profile-title {
+  background-color: #fbfaf4;
+}

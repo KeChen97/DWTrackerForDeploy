@@ -1,0 +1,288 @@
+html, body{
+    min-height:100%;
+}
+
+body {
+    height:100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.backgroundPanel {
+    padding: 25px;
+    height: 100%;
+    background-color: #F2EBC2;
+}
+
+.panel {
+    height:100%;
+}
+
+.exercises-part,
+.history-part,
+.template-part {
+    display: none;
+    width: 100%;
+    padding: 25px;
+}
+
+.main-panel {
+   height:100%;
+}
+
+.main-part {
+    border: 1px solid transparent;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    background-color: #FBFAF4;
+}
+
+.logo{
+    margin-right: 5px;
+    vertical-align: top;
+}
+a {
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+}
+a:hover {
+    text-decoration: underline;
+    color: rgb(26, 145, 91);
+  }
+
+
+
+.title1 {
+    font-family: "Audiowide", sans-serif;
+    margin-top:20px;
+    margin-bottom: 100px;
+    height: 50px;
+
+}
+.tabIcon{
+    margin-right: 10px;
+    vertical-align: bottom;
+}
+.tab {
+    margin-bottom: 40px;
+}
+
+.viewAll {
+    margin: auto;
+    text-align: center;
+}
+.logout {
+    position: absolute;
+    bottom: 30px;
+}
+
+.main-left{
+    /* background-color: white; */
+    /* margin: 10px; */
+    padding: 25px;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+.icon {
+    text-align: center;
+    padding-top: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1.5px solid black;
+}
+
+.foodModal,
+.workoutModal, 
+.exerciseModal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto; /* 15% from the top and centered */
+    border-radius: 15px;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%; /* Could be more or less, depending on screen size */
+    height: 70%;
+}
+
+.modal-body {
+    overflow: auto;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.exercisePanel-left {
+    /* border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px; */
+    text-align: center;
+    background-color: #F6F2DD;
+    height:100%;
+}
+
+.exercisePanel-right {
+    /* margin: 10px; */
+}
+
+.bodypartTab {
+    margin-bottom: 40px;
+}
+
+.exercise-core {
+    display: none;
+}
+
+.main-right {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+    background-color: #F6F2DD;
+    height:100%;
+}
+
+.templates {
+    margin: 20px 0;
+}
+
+.suggestion {
+    font-size: 12px;
+    color: #898989;
+    padding-left: 15px;
+}
+
+.table {
+    width: 100%;
+} 
+
+.divider {
+    border: 0.5px solid rgba(170, 168, 168, 0.603);
+    height: 1px;
+    width: 60%;
+    margin: 25px auto;
+}
+
+.desp {
+    font-size: 14px;
+    color:rgb(77, 77, 77);
+}
+
+.workoutHistoryCard,
+.templateCard {
+    margin: 10px;
+    padding: 15px;
+    border: 0px transparent;
+}
+
+.addCard {
+    margin: 20px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    height: 200px;
+    background-color: #FDEA83;
+}
+
+.exerciseCard {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    height: 200px;
+    width: 300px;
+    background-color: #FDEA83;
+}
+
+.addExerciseCard {
+    margin: 10px;
+    padding: 10px;
+    border: 1px;
+    border-radius: 10px;
+    height: 150px;
+    width: 200px;
+    /* overflow: auto;  */
+}
+
+.wrapper {
+    margin: 15px;
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    height: 140px;
+    background-color: #FEF9D9;
+}
+
+.wrapper2 {
+    display: flex;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    height: 60px;
+    width: 340px;
+    background-color: #fffef6;
+}
+
+.reminderText{
+    text-align: left;
+}
+
+.calDeflictTitle,
+.wktReminderTitle {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.calDeflict {
+    font-size: 12px;
+    color: #c8c8c8;
+}
+
+.card-footer {
+    margin-left: 20px;
+    border: none;
+    background-color: transparent;
+}
+
+.exercises {
+    width: 100%;
+}
+
+.avater {
+    margin-top: 30px;
+    /* margin: 10px; */
+    border-radius: 50%;
+}
+
+.inputBox {
+    width: 60px;
+}
