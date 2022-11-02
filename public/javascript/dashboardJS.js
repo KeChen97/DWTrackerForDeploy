@@ -269,6 +269,7 @@ async function updateWorkoutToDB(workout, workoutId) {
 async function addWorkoutToDB (workout) {
   const res = await fetch("/getuser");
   const user = await res.json();
+  console.log("user", user.user);
   const data = {
         user: user.user,
         workout: workout
